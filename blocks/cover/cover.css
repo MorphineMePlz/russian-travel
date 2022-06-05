@@ -1,5 +1,5 @@
 .cover {
-  max-width: 100%;
+  max-width: 1184px;
   height: 740px;
   margin: 0 auto;
 }
@@ -70,19 +70,21 @@
 @media screen and (max-width: 320px) {
   .cover {
     max-height: 200px;
+    margin-bottom: 64px;
   }
   .cover__title {
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     max-width: 250px;
+    padding-top: 33px;
   }
 
   .cover__subtitle {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    max-width: 270px;
+    max-width: 260px;
     margin: 16px auto 33px;
   }
   .cover__link {
