@@ -4,8 +4,7 @@
   max-width: 1184px;
   height: 18px;
   margin: 0 auto;
-  padding-bottom: 24px;
-  padding-top: 92px;
+  padding: 92px 48px 24px 48px;
   background-color: #2a2c2f;
 }
 
@@ -34,4 +33,10 @@
   line-height: 18px;
   text-align: right;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 88px 24px 24px 24px;
+  }
 }

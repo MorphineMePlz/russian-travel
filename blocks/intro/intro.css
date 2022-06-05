@@ -2,6 +2,7 @@
   max-width: 984px;
   display: block;
   margin: 92px auto;
+  padding: 0 48px;
 }
 
 .intro__title {
@@ -33,4 +34,20 @@
 .intro__list {
   font-weight: normal;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin: 88px 24px;
+    max-width: 720px;
+    padding: 0;
+  }
+
+  .intro__title {
+    margin-bottom: 24px;
+    max-width: 720px;
+  }
+  .intro__text {
+    max-width: 720px;
+  }
 }

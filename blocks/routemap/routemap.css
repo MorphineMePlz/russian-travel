@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 0 48px;
 }
 
 .routemap__title {
@@ -42,4 +43,26 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .routemap__subtitle {
+    margin: 32px auto 56px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .routemap {
+    padding: 0;
+  }
+
+  .routemap__title {
+    padding: 0 24px;
+  }
+  .routemap__subtitle {
+    margin: 32px auto 56px auto;
+  }
+  .routemap__caption {
+    margin-left: 24px;
+  }
 }

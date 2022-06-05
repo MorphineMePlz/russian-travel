@@ -1,8 +1,7 @@
 .header {
   display: flex;
-  max-width: 1184px;
-  padding-top: 28px;
-  padding-bottom: 56px;
+  max-width: 1280px;
+  padding: 28px 48px 56px;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -40,4 +39,16 @@
 
 .header__link-active {
   text-decoration-line: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 28px 48px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px 24px 48px;
+  }
 }
