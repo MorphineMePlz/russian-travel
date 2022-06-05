@@ -66,3 +66,23 @@
     margin-left: 24px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .routemap {
+    padding: 0;
+  }
+
+  .routemap__title {
+    padding: 0 16px 16px 16px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .routemap__subtitle {
+    margin: 0 16px 40px 16px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .routemap__caption {
+    margin-left: 16px;
+  }
+}

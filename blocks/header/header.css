@@ -8,7 +8,9 @@
 
 .header__logo {
   background-image: url(../../images/__logo.svg);
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 176px;
   height: 52px;
 }
@@ -33,8 +35,8 @@
 .header__link {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
-  line-height: 0.87em;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .header__link-active {
@@ -50,5 +52,22 @@
 @media screen and (max-width: 768px) {
   .header {
     padding: 28px 24px 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 142px;
+  }
+  .header {
+    padding: 16px 16px 48px 16px;
+  }
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .header__links {
+    align-items: center;
+    margin-top: 8px;
   }
 }
