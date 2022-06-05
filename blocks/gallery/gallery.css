@@ -1,0 +1,17 @@
+.gallery {
+  max-width: 1184px;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  padding: 0;
+  justify-items: center;
+  justify-self: center;
+}
+
+.gallery__item {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}

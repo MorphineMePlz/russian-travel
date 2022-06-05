@@ -1,0 +1,45 @@
+.routemap {
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.routemap__title {
+  margin: 0 auto;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 900;
+  max-width: 720px;
+  max-height: 200px;
+}
+
+.routemap__subtitle {
+  margin: 32px auto 64px auto;
+  max-width: 640px;
+  max-height: 72px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.routemap__figure {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.routemap__image {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.routemap__caption {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
