@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../fonts/inter_web/inter.css);
 
 /* Шапка сайта, блок header */
 @import url(../blocks/header/header.css);
