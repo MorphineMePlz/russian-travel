@@ -4,3 +4,15 @@
   margin: 0 auto;
   max-width: 984px;
 }
+
+@media screen and (max-width: 1024px) {
+  .routemap {
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .routemap {
+    margin: 0 auto;
+  }
+}
