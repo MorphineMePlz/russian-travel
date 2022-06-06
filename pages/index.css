@@ -14,7 +14,7 @@
 @import url(../blocks/routemap/routemap.css);
 @import url(../blocks/routemap/__title/routemap__title.css);
 @import url(../blocks/routemap/__subtitle/routemap__subtitle.css);
-@import url(../blocks/routemap/__subline/routemap__subline.css);
+@import url(../blocks/routemap/__caption/routemap__caption.css);
 @import url(../blocks/routemap/__image/routemap__image.css);
 @import url(../blocks/routemap/__figure/routemap__figure.css);
 

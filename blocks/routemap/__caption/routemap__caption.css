@@ -1,4 +1,4 @@
-.routemap__subline {
+.routemap__caption {
   text-transform: uppercase;
   font-size: 10px;
   line-height: 14px;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .routemap__subline {
+  .routemap__caption {
     margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .routemap__subline {
+  .routemap__caption {
     margin-left: 16px;
   }
 }
