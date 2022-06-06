@@ -1,17 +1,18 @@
-# h1 Домашняя работа № 3: Путешествия по России
+# Домашняя работа № 3: Путешествия по России
 
-# h2 Обзор
+## Обзор
 
-1. Общая информация
+1. Используемые технологии для верстки.
 2. Фигма
 
-# h2 Используемые технологии для верстки.
+## 1. Используемые технологии для верстки.
 
-1. Fleexbox
+1. Flexbox
 2. Grid
 3. Адаптивная верстка
-   [Ссылка на сайт](https://morphinemeplz.github.io/russian-travel/)
+4. Методолгия - БЭМ
+5. [Ссылка на сайт](https://morphinemeplz.github.io/russian-travel/)
 
-#h2 Figma
+## 2. Figma
 
 [Ссылка на макет](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=28503%3A0)
