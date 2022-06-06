@@ -1,0 +1,34 @@
+.routemap__title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 56px;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .routemap__title {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .routemap__title {
+    font-size: 60px;
+    line-height: 70px;
+    max-width: 500px;
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .routemap__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 16px;
+  }
+}
