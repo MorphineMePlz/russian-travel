@@ -1,9 +1,8 @@
 .place__text {
-  max-width: 484px;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
-  margin: 0 0 26px 0;
+  margin: 0 0 25px 0;
 }
 
 .place__text:last-of-type {
@@ -17,8 +16,9 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .place__text {
     padding: 0 16px;
+    max-width: 400px;
   }
 }
