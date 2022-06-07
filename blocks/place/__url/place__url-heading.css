@@ -5,10 +5,6 @@
   line-height: 12px;
   letter-spacing: 2px;
   color: #aaaaaa;
-}
-
-@media screen and (max-width: 425px) {
-  .place__url-heading {
-    margin-top: 0;
-  }
+  margin-top: 0;
+  text-transform: uppercase;
 }

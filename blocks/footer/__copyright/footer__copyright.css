@@ -1,7 +1,6 @@
 .footer__copyright {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 16px;
   text-align: right;
   margin: 0;
 }
@@ -9,9 +8,5 @@
 @media screen and (max-width: 730px) {
   .footer__copyright {
     text-align: left;
-    padding-bottom: 24px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
   }
 }

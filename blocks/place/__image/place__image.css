@@ -1,5 +1,6 @@
 .place__image {
   max-width: 460px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,12 +19,5 @@
   .place__image {
     width: 100%;
     margin: 0 auto 32px;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .place__image {
-    width: 100%;
-    margin: 0 0 32px 0;
   }
 }
